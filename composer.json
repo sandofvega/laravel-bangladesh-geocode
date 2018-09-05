@@ -9,6 +9,11 @@
         }
     ],
     "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Sandofvega\\Bdgeocode\\": "src"
+        }
+    },
     "extra": {
         "laravel": {
             "providers": [
