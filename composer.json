@@ -1,6 +1,8 @@
 {
     "name": "sandofvega/bdgeocode",
     "type": "laravel",
+    "description": "Division, District, Upazila and Union level fully mapped Database.",
+    "keywords": ["laravel", "bangladesh", "geocode"],
     "license": "MIT",
     "authors": [
         {
