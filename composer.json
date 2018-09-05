@@ -1,0 +1,12 @@
+{
+    "name": "sandofvega/bdgeocode",
+    "type": "laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sand Of Vega",
+            "email": "yasin@sandofvega.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
