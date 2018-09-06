@@ -8,7 +8,8 @@
         {
             "name": "Sand Of Vega",
             "email": "yasin@sandofvega.com",
-            "homepage": "https://sandofvega.com"
+            "homepage": "https://sandofvega.com",
+            "role": "Developer"
         }
     ],
     "minimum-stability": "stable",
