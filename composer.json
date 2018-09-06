@@ -11,7 +11,7 @@
             "homepage": "https://sandofvega.com"
         }
     ],
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "Sandofvega\\Bdgeocode\\": "src"
