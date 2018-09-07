@@ -9,7 +9,7 @@ class UnionsTableSeeder extends Seeder
 {
     public function run()
     {
-        $unions = json_decode(file_get_contents(__DIR__.'/../data/json/unions.json'), true);
+        $unions = json_decode(file_get_contents(__DIR__.'/../../data/json/unions.json'), true);
         DB::table('unions')->insert($unions);
     }
 }

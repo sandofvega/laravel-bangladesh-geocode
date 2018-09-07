@@ -9,7 +9,7 @@ class ThanasTableSeeder extends Seeder
 {
     public function run()
     {
-        $thanas = json_decode(file_get_contents(__DIR__.'/../data/json/thanas.json'), true);
+        $thanas = json_decode(file_get_contents(__DIR__.'/../../data/json/thanas.json'), true);
         DB::table('thanas')->insert($thanas);
     }
 }
