@@ -3,7 +3,7 @@
 [![Total Downloads](https://poser.pugx.org/sandofvega/bdgeocode/downloads)](https://packagist.org/packages/sandofvega/bdgeocode)
 [![License](https://poser.pugx.org/sandofvega/bdgeocode/license)](https://packagist.org/packages/sandofvega/bdgeocode)
  
-Division, District, Upazila and Union level fully mapped Database.
+8 Division, 64 District, 491 Thana and 2350 Union fully mapped laravel package. Easy to install & config. All data is accessible from database using laravel eloquent ORM.
 
 > All information, content, and spelling have been taken from the repository [nuhil/bangladesh-geocode](https://github.com/nuhil/bangladesh-geocode).
 
