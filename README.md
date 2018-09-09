@@ -53,7 +53,7 @@ class DatabaseSeeder extends Seeder
 }
 ```
 
-Now you are ready. When will you run the seed command (e.g. `db:seed` or `migrate:fresh --seed`) the Bdgeocode's data will be inserted into your database.
+Now you are ready. When you run the seed command (e.g. `db:seed` or `migrate:fresh --seed`) the Bdgeocode's data will be inserted into your database.
 
 ## Usage
 
