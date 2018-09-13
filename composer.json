@@ -1,7 +1,7 @@
 {
     "name": "sandofvega/bdgeocode",
     "type": "laravel",
-    "description": "Division, District, Upazila and Union level fully mapped Database.",
+    "description": "8 Division, 64 District, 491 Thana and 2350 Union fully mapped laravel package.",
     "keywords": ["laravel", "bangladesh", "geocode"],
     "license": "MIT",
     "authors": [
