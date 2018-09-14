@@ -3,9 +3,12 @@
 namespace Sandofvega\Bdgeocode\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Znck\Eloquent\Traits\BelongsToThrough;
 
 class Union extends Model
 {
+    use BelongsToThrough;
+
     public function thana()
     {
         return $this->belongsTo(Thana::class);
@@ -13,11 +16,11 @@ class Union extends Model
 
     public function district()
     {
-        return $this->thana->belongsTo(District::class);
+        return $this->belongsToThrough(District::class, Thana::class);
     }
 
     public function division()
     {
-        return $this->district->belongsTo(Division::class);
+        return $this->belongsToThrough(Division::class, [District::class, Thana::class]);
     }
 }

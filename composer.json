@@ -13,7 +13,8 @@
         }
     ],
     "require": {
-        "staudenmeir/eloquent-has-many-deep": "^1.1"
+        "staudenmeir/eloquent-has-many-deep": "^1.1",
+        "znck/belongs-to-through": "^2.3"
     },
     "autoload": {
         "psr-4": {
