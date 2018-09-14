@@ -10,4 +10,14 @@ class Union extends Model
     {
         return $this->belongsTo(Thana::class);
     }
+
+    public function district()
+    {
+        return $this->thana->belongsTo(District::class);
+    }
+
+    public function division()
+    {
+        return $this->district->belongsTo(Division::class);
+    }
 }

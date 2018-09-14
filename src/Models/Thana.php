@@ -15,4 +15,9 @@ class Thana extends Model
     {
         return $this->belongsTo(District::class);
     }
+
+    public function division()
+    {
+        return $this->district->belongsTo(District::class);
+    }
 }
