@@ -12,6 +12,9 @@
             "role": "Developer"
         }
     ],
+    "require": {
+        "staudenmeir/eloquent-has-many-deep": "^1.1"
+    },
     "autoload": {
         "psr-4": {
             "Sandofvega\\Bdgeocode\\": "src"
