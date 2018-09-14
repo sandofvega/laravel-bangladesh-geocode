@@ -11,6 +11,11 @@ class District extends Model
         return $this->hasMany(Thana::class);
     }
 
+    public function unions()
+    {
+        return $this->hasManyThrough(Union::class, Thana::class);
+    }
+
     public function division()
     {
         return $this->belongsTo(Division::class);
