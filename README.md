@@ -26,7 +26,13 @@ composer require sandofvega/bdgeocode
 
 ## Configuration
 
-1) Run artisan migrate command:
+1) Publish migrate file:
+
+```bash
+php artisan vendor:publish --tag=bdgeocode-migrations
+```
+
+2) Run artisan migrate command:
 
 ```bash
 php artisan migrate
@@ -38,7 +44,7 @@ After the migration, four new tables will be present:
 - `thanas`
 - `unions`
 
-2) Add Bdgeocode's seeder class to `database/seeds/DatabaseSeeder.php`:
+3) Add Bdgeocode's seeder class to `database/seeds/DatabaseSeeder.php`:
 
 ```php
 use Sandofvega\Bdgeocode\Seeds\BdgeocodeSeeder;
