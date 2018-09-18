@@ -9,6 +9,8 @@ class Division extends Model
 {
     use HasManyDeep;
 
+    public $timestamps = false;
+
     public function districts()
     {
         return $this->hasMany(District::class);
