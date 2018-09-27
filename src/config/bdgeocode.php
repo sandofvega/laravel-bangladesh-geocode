@@ -15,7 +15,7 @@ return [
     | Models path
     |--------------------------------------------------------------------------
     |
-    | Update the model_namespace if your Models is in a different folder.
+    | Update the models_path if your Models is in a different folder.
     |
     */
     'models_path' => app_path('')
