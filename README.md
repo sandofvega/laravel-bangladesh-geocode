@@ -21,18 +21,23 @@ In order to install Bdgeocode, just run this command in your project:
 
 ```bash
 composer require sandofvega/bdgeocode
-```
-
+``` 
 
 ## Configuration
 
-1) Publish migrate file:
+1) If you want to change your models directory, you need to publish the config file first. And change the models directory from `config/bdgeocode.php`. Otherwise if your models directory is in laravel's default models directory, then you can skip this step.
 
 ```bash
-php artisan vendor:publish --tag=bdgeocode-migrations
+php artisan vendor:publish --tag=bdgeocode-config
 ```
 
-2) Run artisan migrate command:
+2) Publish models and migration file:
+
+```bash
+php artisan vendor:publish --provider="Sandofvega\Bdgeocode\BdgeocodeServiceProvider"
+```
+
+3) Run artisan migrate command:
 
 ```bash
 php artisan migrate
@@ -44,7 +49,7 @@ After the migration, four new tables will be present:
 - `thanas`
 - `unions`
 
-3) Add Bdgeocode's seeder class to `database/seeds/DatabaseSeeder.php`:
+4) Add Bdgeocode's seeder class to `database/seeds/DatabaseSeeder.php`:
 
 ```php
 use Sandofvega\Bdgeocode\Seeds\BdgeocodeSeeder;
