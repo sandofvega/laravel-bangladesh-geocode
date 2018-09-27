@@ -95,3 +95,8 @@ Laravel Bangladesh Geocode is free software distributed under the terms of the M
 We follow [PSR-2](https://www.php-fig.org/psr/psr-2/) and [PSR-4](https://www.php-fig.org/psr/psr-4/) PHP coding standards and [Semantic Versioning](https://semver.org/).
 
 Please report any issue you find. And pull requests are welcome.
+
+## Donation
+
+<a href='https://ko-fi.com/I2I1BFU9' target='_blank'><img height='41' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+<a href="https://www.buymeacoffee.com/sandofvega" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
