@@ -83,12 +83,12 @@ use Sandofvega\Bdgeocode\Models\District;
 
 $district = District::first(); // A district
 
-$thanas = $district->thanas // All thana in a district
-
 $division = $district->division // Division for a district
+
+$thanas = $district->thanas // All thana in a district
 ```
 
-+ **Note:** There are many thanas in a district so the relation name is `thanas`(plural), not `thana`. And there is one division for a district so the relation name is `division`(singular), not `divisions`. You must follow this rule to call every relation.
++ **Note:** There is one division for a district so the relation name is `division`(singular), not `divisions`. And there are many thanas in a district so the relation name is `thanas`(plural), not `thana`. You must follow this rule to call every relation.
 
 
 ## License
