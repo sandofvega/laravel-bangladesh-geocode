@@ -22,9 +22,6 @@ class CreateBdgeocodeTables extends Migration
             $table->unsignedInteger('division_id');
             $table->string('name')->unique();
             $table->string('bn_name')->unique();
-            $table->double('lat')->nullable();
-            $table->double('lon')->nullable();
-            $table->string('website')->nullable();
 
             $table->foreign('division_id')->references('id')->on('divisions') ->onUpdate('cascade')->onDelete('cascade');
         });
