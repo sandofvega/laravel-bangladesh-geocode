@@ -9,6 +9,8 @@ class Thana extends Model
 {
     use BelongsToThrough;
 
+    public $timestamps = false;
+
     public function unions()
     {
         return $this->hasMany(Union::class);

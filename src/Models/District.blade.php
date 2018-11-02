@@ -6,6 +6,8 @@ use Illuminate\Database\Eloquent\Model;
 
 class District extends Model
 {
+    public $timestamps = false;
+
     public function thanas()
     {
         return $this->hasMany(Thana::class);
