@@ -26,19 +26,13 @@ composer require sandofvega/bdgeocode
 
 ## Configuration
 
-1) If you want to change your models directory, you need to publish the config file first. And change the models directory from `config/bdgeocode.php`. Otherwise if your models directory is in laravel's default models directory, then you can skip this step.
-
-```bash
-php artisan vendor:publish --tag=bdgeocode-config
-```
-
-2) Publish models and migration file:
+1) Publish models and migration file:
 
 ```bash
 php artisan vendor:publish --provider="Sandofvega\Bdgeocode\BdgeocodeServiceProvider"
 ```
 
-3) Run artisan migrate command:
+2) Run artisan migrate command:
 
 ```bash
 php artisan migrate
@@ -50,7 +44,7 @@ After the migration, four new tables will be present:
 - `thanas`
 - `unions`
 
-4) Add Bdgeocode's seeder class to `database/seeds/DatabaseSeeder.php`:
+3) Add Bdgeocode's seeder class to `database/seeds/DatabaseSeeder.php`:
 
 ```php
 use Sandofvega\Bdgeocode\Seeds\BdgeocodeSeeder;
@@ -69,10 +63,10 @@ Now you are ready. When you run the seed command (e.g. `db:seed` or `migrate:fre
 
 ## Usage
 
-You can get all data by using package's build-in models. E.g:
+You can get all data by using those models. E.g:
 
 ```php
-use Sandofvega\Bdgeocode\Models\District;
+use App\District;
 
 $districts = District::all();
 ```
@@ -80,7 +74,7 @@ $districts = District::all();
 There are relations bitween models. E. g:
 
 ```php
-use Sandofvega\Bdgeocode\Models\District;
+use App\District;
 
 $district = District::first(); // A district
 
