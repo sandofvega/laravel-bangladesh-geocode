@@ -4,7 +4,7 @@
 [![License](https://poser.pugx.org/sandofvega/bdgeocode/license)](https://packagist.org/packages/sandofvega/bdgeocode)
 [![Twitter Follow](https://img.shields.io/twitter/follow/sandofvega.svg?label=Follow&style=social)](https://twitter.com/intent/follow?screen_name=sandofvega)
  
-8 Division, 64 District, 491 Thana and 2350 Union fully mapped laravel package. Easy to install & config. All data is accessible from database using laravel eloquent ORM.
+8 Division, 64 District, 491 Thana and 4541 Union fully mapped laravel package. Easy to install & config. All data is accessible from database using laravel eloquent ORM.
 
 > All information, content, and spelling have been taken from https://bangladesh.gov.bd
 
